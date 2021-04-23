@@ -26,4 +26,4 @@ https://something-something.herokuapp.com
 
 ## Screenshot
 
-![screen shot](./images/screenshot.png)
+![screen shot](./public/assets/images/screenshot.png)
