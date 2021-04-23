@@ -151,9 +151,10 @@ const renderNoteList = async (notes) => {
     return liEl;
   };
 
-  if (jsonNotes.length === 0) {
-    noteListItems.push(createLi('No saved Notes', false));
-  }
+  //  TODO: gotta remove your listener, yo
+  // if (jsonNotes.length === 0) {
+  //   noteListItems.push(createLi('No saved Notes', false));
+  // }
 
   jsonNotes.forEach((note) => {
     const li = createLi(note.title);
