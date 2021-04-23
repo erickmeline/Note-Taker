@@ -33,7 +33,7 @@ app.get('/api/notes', (req, res) => {
     if (err) {
       throw err;
     }
-    let notes = JSON.parse(data);console.log('notes',notes);
+    let notes = JSON.parse(data);
     res.json(notes);
   });
 });
