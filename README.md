@@ -22,7 +22,7 @@ node server.js
 
 ## Demo
 
-https://something-something.herokuapp.com
+https://another-note-taker.herokuapp.com/
 
 ## Screenshot
 
